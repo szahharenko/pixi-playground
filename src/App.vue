@@ -5,6 +5,7 @@
         <source src="https://agly.eu/img/appbg.mp4" type="video/mp4" />
       </video>
     </div>
+    <div class="logo"><img src="./assets/logo.png" alt="Catch me"></div>
     <PIXI />
   </div>
 </template>
@@ -30,6 +31,12 @@ export default class App extends Vue {}
   text-align: center;
   color: #2c3e50;
   position: relative;
+}
+.logo {
+  position: fixed;z-index: 3;top:0;left:50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  img {max-width: 25vw;height: auto;}
 }
 .pixiplayground {
   position: relative;

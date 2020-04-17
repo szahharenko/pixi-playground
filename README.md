@@ -1,24 +1,12 @@
-# playground
+# Pixi.js playground
 
-## Project setup
-```
-npm install
-```
+## Palay the game
+[Click to try](https://pixi-js-playground.netlify.app/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Build status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b00f5a30-167e-4b9c-8215-d1735b1a2312/deploy-status)](https://app.netlify.com/sites/pixi-js-playground/deploys)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## DEV
+- npm install
+- npm run serve
+- npm run build

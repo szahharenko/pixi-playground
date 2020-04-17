@@ -17,6 +17,7 @@ export default function addRandonElement (app: any, overcallback?: Function): PI
     graphics.y = py
     graphics.on("mouseover", function() {
         if (typeof overcallback == 'function') overcallback()
+        overcallback = () => false
         graphics.alpha = 0.3
         pause = true
     })
